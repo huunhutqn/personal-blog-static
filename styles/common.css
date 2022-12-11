@@ -64,6 +64,9 @@ body {
   font-weight: 700;
   letter-spacing: 2px;
 }
+.blog-nav__menu-bar__item--url:hover {
+  color: var(--text-3);
+}
 .blog-main {
   grid-area: main;
   margin-bottom: 50px;
