@@ -43,8 +43,6 @@ body {
 .blog-nav__logo--img {
   width: 240px;
 }
-.blog-nav__menu-bar {
-}
 .blog-nav__menu-bar__items {
   list-style: none;
   display: flex;

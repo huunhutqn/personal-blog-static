@@ -1,5 +1,3 @@
-.blog-post-card {
-}
 .blog-post-card__title {
   text-align: center;
   font-size: 26px;
@@ -52,8 +50,6 @@
 .blog-post-card__footer__author {
   display: flex;
 }
-.blog-post-card__footer__author__infor {
-}
 .blog-post-card__footer__author__infor > div:not(:last-of-type) {
   margin-bottom: 10px;
 }
@@ -68,14 +64,6 @@
 }
 .blog-post-card__footer__author__avatar--img {
   width: 100px;
-}
-.blog-post-card__footer__author__name {
-}
-.blog-post-card__footer__author__title {
-}
-.blog-post-card__footer__author__company {
-}
-.blog-post-card__footer__author__short-bio {
 }
 
 @media (max-width: 480px) {
@@ -93,7 +81,5 @@
 @media (min-width: 481px) and (max-width: 768px) {
   .blog-post-card__title {
     font-size: 24px;
-  }
-  .blog-post-card__footer__author__avatar--img {
   }
 }
