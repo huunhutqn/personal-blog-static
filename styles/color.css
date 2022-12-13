@@ -1,0 +1,13 @@
+/* Variables */
+:root {
+  /* Color palette https://colorhunt.co/palette/ffb319ffe194e8f6efb8dfd8 */
+  --primary-color: #ffb319;
+  --color-1: #ffe194;
+  --color-2: #e8f6ef;
+  --color-3: #b8dfd8;
+  --text-1: #3a3a3a;
+  --text-2: #757575;
+  --text-3: #fc683b;
+  --border-1: #cacaca;
+  --border-2: #dddddd;
+}

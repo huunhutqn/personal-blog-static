@@ -1,0 +1,11 @@
+.blog-copyright {
+  text-align: center;
+  margin-bottom: 5px;
+}
+.blog-infor {
+  text-align: center;
+}
+.blog-infor__email {
+  /* text-decoration: none; */
+  color: var(--text-2);
+}

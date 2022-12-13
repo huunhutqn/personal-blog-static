@@ -66,7 +66,7 @@
   width: 100px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 425px) {
   .blog-post-card__title {
     font-size: 24px;
   }
@@ -78,7 +78,7 @@
   }
 }
 
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 426px) and (max-width: 768px) {
   .blog-post-card__title {
     font-size: 24px;
   }

@@ -1,16 +1,7 @@
-/* Variables */
-:root {
-  /* Color palette https://colorhunt.co/palette/ffb319ffe194e8f6efb8dfd8 */
-  --primary-color: #ffb319;
-  --color-1: #ffe194;
-  --color-2: #e8f6ef;
-  --color-3: #b8dfd8;
-  --text-1: #3a3a3a;
-  --text-2: #757575;
-  --text-3: #fc683b;
-  --border-1: #cacaca;
-  --border-2: #dddddd;
-}
+@import url("./color.css");
+
+@import url("./nav.css");
+@import url("./footer.css");
 
 html {
   font-size: 14px;
@@ -31,40 +22,6 @@ body {
     "footer footer footer footer";
   max-width: 1024px;
 }
-.blog-nav {
-  grid-area: nav;
-  margin-bottom: 30px;
-}
-.blog-nav__logo {
-  position: relative;
-  display: flex;
-  justify-content: center;
-}
-.blog-nav__logo--img {
-  width: 240px;
-}
-.blog-nav__menu-bar__items {
-  list-style: none;
-  display: flex;
-  padding: 30px 0;
-  text-transform: uppercase;
-  font-size: 20px;
-  justify-content: center;
-  border-top: 1px solid var(--border-2);
-  border-bottom: 1px solid var(--border-2);
-}
-.blog-nav__menu-bar__item {
-  padding: 5px 30px;
-}
-.blog-nav__menu-bar__item--url {
-  text-decoration: none;
-  color: var(--text-1);
-  font-weight: 700;
-  letter-spacing: 2px;
-}
-.blog-nav__menu-bar__item--url:hover {
-  color: var(--text-3);
-}
 .blog-main {
   grid-area: main;
   margin-bottom: 50px;
@@ -78,48 +35,15 @@ body {
   padding: 20px 0;
   color: var(--text-2);
 }
-.blog-copyright {
-  text-align: center;
-  margin-bottom: 5px;
-}
-.blog-infor {
-  text-align: center;
-}
-.blog-infor__email {
-  /* text-decoration: none; */
-  color: var(--text-2);
-}
 
-@media (max-width: 480px) {
+@media (max-width: 425px) {
   .blog-container {
     padding: 0 15px;
   }
-  .blog-nav__menu-bar__items {
-    flex-direction: column;
-    align-items: center;
-    padding: 10px 0;
-  }
-  .blog-nav__menu-bar__item:not(:last-of-type) {
-    margin-bottom: 20px;
-    border-bottom: 1px solid var(--border-1);
-  }
-  .blog-nav__menu-bar__item {
-    font-size: 18px;
-    padding-bottom: 10px;
-  }
-  .blog-nav__logo--img {
-    width: 120px;
-  }
 }
 
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 426px) and (max-width: 768px) {
   .blog-container {
     padding: 0 20px;
-  }
-  .blog-nav__logo--img {
-    width: 30%;
-  }
-  .blog-nav__menu-bar__items {
-    padding: 20px 0;
   }
 }
